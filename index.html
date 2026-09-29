@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Firma Visible Digital CR</title>
+<meta name="description" content="Política de privacidad de la app Firma Visible Digital CR.">
+<style>
+  :root {
+    --bg: #f4f2ed;
+    --fg: #1d1c1a;
+    --muted: #5c5a55;
+    --rule: #d9d5cc;
+    --accent: #7a2e3b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161514;
+      --fg: #eceae4;
+      --muted: #a6a39b;
+      --rule: #34322e;
+      --accent: #e3a3ae;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 16px 4rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .5rem; }
+  p, li { margin: 0 0 .75rem; }
+  ul { padding-left: 1.2rem; }
+  .fecha { color: var(--muted); margin-bottom: 2rem; }
+  .resumen { border-left: 3px solid var(--accent); padding: .25rem 0 .25rem 1rem; }
+  a { color: var(--accent); }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad</h1>
+  <p class="fecha">Firma Visible Digital CR · Vigente desde el 28 de septiembre de 2026</p>
+
+  <p class="resumen">Tus documentos, tu nombre y tu historial se quedan en tu teléfono. La app no
+  tiene cuentas, no usa analítica ni anuncios, y no envía tu información a ningún servidor. Lo
+  único que sale del teléfono sin que tú lo pidas es una consulta técnica para saber si hay una
+  actualización de la app, y esa consulta no lleva ningún dato tuyo.</p>
+
+  <h2>Qué hace la app</h2>
+  <p>Firma Visible Digital CR agrega una representación visual de firma a un documento PDF y lo
+  entrega a GAUDI Móvil, que es la aplicación que aplica la firma digital. La app no firma
+  documentos, no maneja certificados ni tu PIN, y no es una aplicación oficial del Banco Central
+  de Costa Rica ni de GAUDI.</p>
+
+  <h2>Qué información maneja y dónde queda</h2>
+  <ul>
+    <li><strong>Los documentos PDF</strong> que abres, las copias que preparas y las que vuelven
+    firmadas desde GAUDI.</li>
+    <li><strong>Tu nombre</strong>, tal como lo escribes para que aparezca en la marca. La app no
+    pide tu cédula ni ningún otro identificador.</li>
+    <li><strong>El historial</strong> de documentos preparados y su estado, y la última posición en
+    la que colocaste la marca.</li>
+  </ul>
+  <p>Todo esto se guarda en el almacenamiento privado de la app dentro de tu teléfono, que otras
+  aplicaciones no pueden leer. La app desactiva el respaldo automático de Android, así que estos
+  datos tampoco se copian a Google Drive.</p>
+  <p>Cuando un documento ya firmado trae certificados, la app lee el nombre del firmante y
+  comprueba la firma sin conexión. No lee, no muestra y no guarda el número de identificación que
+  contiene el certificado.</p>
+
+  <h2>Cuándo sale algo de tu teléfono</h2>
+  <p>Solo cuando tú lo decides:</p>
+  <ul>
+    <li><strong>Al abrir un documento en GAUDI Móvil o compartirlo</strong> con otra aplicación. A
+    partir de ahí, el documento queda sujeto a las condiciones de la aplicación que elegiste.</li>
+    <li><strong>Al usar «Escríbenos»</strong>. La app abre tu aplicación de correo con un mensaje
+    que incluye la versión de la app. No adjunta documentos y el correo solo sale si tú lo
+    envías.</li>
+  </ul>
+
+  <h2>Búsqueda de actualizaciones</h2>
+  <p>Cada vez que abres la app, esta consulta al servicio EAS Update de Expo (Expo, Inc.) si hay
+  una actualización disponible, y la descarga si existe. Así se corrigen errores sin esperar una
+  versión nueva en Google Play.</p>
+  <p>Esa consulta envía datos técnicos: la plataforma (Android), la versión de la app, el canal de
+  actualizaciones y un identificador aleatorio que se genera al instalar la app y no está ligado a
+  tu identidad. Como en cualquier conexión a internet, Expo recibe también la dirección IP de tu
+  conexión. La consulta nunca incluye tus documentos, tu nombre ni tu historial.</p>
+  <p>Expo trata esos datos según su propia política de privacidad:
+  <a href="https://expo.dev/privacy">expo.dev/privacy</a>. Si el teléfono no tiene conexión, la
+  app funciona igual.</p>
+
+  <h2>Acceso a la carpeta de GAUDI</h2>
+  <p>Si lo autorizas, la app lee la carpeta donde GAUDI Móvil guarda los documentos firmados, para
+  reconocer las copias que preparaste y marcarlas como firmadas. Solo abre los archivos que
+  corresponden a esas copias. No lee otras carpetas ni pide permisos generales de almacenamiento.
+  Puedes retirar el permiso cuando quieras desde los ajustes de Android.</p>
+
+  <h2>Lo que la app no hace</h2>
+  <ul>
+    <li>No tiene cuentas ni inicio de sesión.</li>
+    <li>No usa analítica, rastreo ni publicidad.</li>
+    <li>No vende ni comparte tu información con terceros.</li>
+    <li>No tiene servidores propios que reciban tus datos.</li>
+  </ul>
+
+  <h2>Cuánto tiempo se conservan y cómo borrarlos</h2>
+  <p>Los datos quedan en tu teléfono hasta que los borras. Puedes eliminar documentos desde el
+  historial y cambiar tu nombre en Configuración. Al desinstalar la app, Android borra todo su
+  almacenamiento privado. Como la app no envía tu información a ningún servidor, no hay copias de
+  ella fuera de tu teléfono que haya que borrar.</p>
+
+  <h2>Menores de edad</h2>
+  <p>La app está pensada para personas adultas que firman documentos con firma digital. No está
+  dirigida a menores de edad.</p>
+
+  <h2>Cambios a esta política</h2>
+  <p>Si la app empieza a tratar la información de otra forma, esta página se actualizará antes de
+  publicar esa versión, con una fecha de vigencia nueva.</p>
+
+  <h2>Contacto</h2>
+  <p>Para preguntas sobre esta política o sobre tus datos, escribe a
+  <a href="mailto:pinasoftapps@gmail.com">pinasoftapps@gmail.com</a>.</p>
+
+  <footer>Firma Visible Digital CR · Desarrollada por Pablo Navarro</footer>
+</main>
+</body>
+</html>
